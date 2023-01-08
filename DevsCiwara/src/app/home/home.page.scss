@@ -1,0 +1,87 @@
+
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+.b:hover, .connexion:hover,.login:hover{
+  background-color: #695CFE;
+  color:white;
+}
+
+
+.men{
+  display: none;
+}
+.logo{
+  height:50px
+}
+
+@media screen and (min-width: 767px) {
+
+  .i{
+    display: flex;
+  }
+  .logo1, .tabs{
+    display: none;
+  }
+}
+@media screen and (max-width: 767px){
+  .i,.logo1,
+  .men{
+    display:flex;
+  }
+  .logo{
+    width: 150px;
+  }
+  .login{
+    font-size: 12px;
+  }
+  .logo2,.connexion{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .i{
+    display:block;
+  }
+
+}
+ion-modal#example-modal {
+  --width: fit-content;
+  --min-width: 250px;
+  --height: fit-content;
+  --border-radius: 6px;
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+}
+
+ion-modal#example-modal h1 {
+  margin: 20px 20px 10px 20px;
+}
+
+ion-modal#example-modal ion-icon {
+  margin-right: 6px;
+
+  width: 48px;
+  height: 48px;
+
+  padding: 4px 0;
+
+  color: #aaaaaa;
+}
+
+ion-modal#example-modal .wrapper {
+  margin-bottom: 10px;
+}
